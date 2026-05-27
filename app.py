@@ -85,7 +85,7 @@ if uploaded_file is not None:
         try:
             colors = extract_colors_kmeans(image, n_colors=8)
 
-            st.markdown("### Color Pallete:")
+            st.markdown("### Color Palette:")
 
             # Build Palette UI (Pure color bars)
             palette_html = '<div class="palette-container">'
